@@ -13,6 +13,7 @@ In the project directory, you can run:
 5. The cursor move to the begining after type the first letter ‘a’.
 
 Expected: 'abcd'
+
 Actual: 'bcda'
 
 ## Works well with original Editor from draft-js
@@ -23,4 +24,5 @@ Actual: 'bcda'
 4. Type 'abcd'
 
 Expected: 'abcd'
+
 Actual: 'abcd'
