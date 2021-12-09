@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 
 import { EditorState } from 'draft-js';
+
+// works well with original Editor
 // import { Editor } from 'draft-js';
 
 import Editor from '@draft-js-plugins/editor';
@@ -51,6 +53,9 @@ class RichEditorExample extends React.Component {
             <li>Type 'abcd'</li>
             <li>Hit Enter or click 'Clear Editor' button</li>
             <li>Type 'abcd'</li>
+            <li>
+              The cursor move to the begining after type the first letter ‘a’.
+            </li>
           </ol>
           <p>
             Expected: 'abcd'
